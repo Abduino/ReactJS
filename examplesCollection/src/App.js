@@ -5,7 +5,7 @@ import {Hello} from './components/Hello';
 import {WellCome} from './components/WellCome';
 import UserName from './components/PropExample';
 import StateExample from './components/StateExample';
-
+import StateExample2 from './components/StateExample2';
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
       <UserName name="Abdurehman"/>
       {/* the next line used to call state example page */}
       <StateExample/>
+      {/* the next line used to call state example page */}
+      <StateExample2/>
 
     </div>
   );

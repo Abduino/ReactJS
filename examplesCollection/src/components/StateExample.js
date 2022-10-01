@@ -10,7 +10,7 @@ class StateExample extends Component{
     }
     changeState(){
         this.setState({
-            message:"Clicked"
+            message: this.state.message + "Clicked"
         })
     }
     render(){

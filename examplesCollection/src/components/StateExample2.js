@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 class StateExample2 extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
             this.state={
                 count: 0
             }
@@ -10,14 +10,16 @@ class StateExample2 extends Component{
     }
     changeState(){
         this.setState({
-            count: count + 1
-        })
+            count: this.state.count + 1
+
+        }) 
+        
     }
     render(){
         return(
             <div>
                 <hr/>
-                <h1>{this.state.count}</h1>
+                <h1>Count = {this.state.count}</h1>
                 <button onClick={() => this.changeState()}>Click Me</button> 
             </div>
         )
