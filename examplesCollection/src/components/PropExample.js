@@ -16,6 +16,7 @@ export default UserName */
 
 //props example with function component (staeless component)
 const UserName = (props) =>{
+   /*  const name = props */
     return(
         <div>
             <hr/>
