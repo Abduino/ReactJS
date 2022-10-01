@@ -6,9 +6,7 @@ import WellCome from './components/WellCome';
 function App() {
   return (
     <div className="App">
-      <Hello name="abdre"/>
-      <WellCome name="redi"/>
-
+      <Hello/>
     </div>
   );
 }
