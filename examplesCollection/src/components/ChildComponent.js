@@ -3,7 +3,7 @@ import React from 'react'
 const ChildComponent = (props) => {
     return (
         <div>
-            <button onClick={props.alerHandler}>Click</button>
+            {/* <button onClick={alert("hello")}>Click</button> */}
             
         </div>
     )

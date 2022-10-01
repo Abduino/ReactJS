@@ -11,7 +11,7 @@ class ParentComponent extends Component {
     }
     
     alerHandler(){
-        alert(`hello parent `)
+        alert("hello parent")
     }
     render(){
         return (
@@ -19,7 +19,7 @@ class ParentComponent extends Component {
                 <hr/>
                 <h2>parent page</h2>
                 <ChildComponent funName= {this.alerHandler}/>
-                
+                <hr/>
                 
             </div>
         )
