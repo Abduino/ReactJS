@@ -8,7 +8,7 @@ import React from "react";
     )
 } */
 
-const Hello = () =>{
+/* const Hello = () =>{
     return(
         <div>
             <h2>Hello</h2>
@@ -17,7 +17,14 @@ const Hello = () =>{
 }
 
 
-export default Hello
+export default Hello */
 
 /* Arrow function */
 
+export const Hello = () =>{
+    return(
+        <div>
+            <h2>Hello</h2>
+        </div>
+    )
+}
