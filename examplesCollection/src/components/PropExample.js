@@ -18,6 +18,7 @@ export default UserName */
 const UserName = (props) =>{
     return(
         <div>
+            <hr/>
             <h2>The user name is {props.name}</h2>
         </div>
 
